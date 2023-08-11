@@ -1,7 +1,14 @@
+import Layout from '@/components/Layout'
 import Head from 'next/head'
-
+import Image from 'next/image'
+import profilePic from '../../public/images/profile/developer-pic-3.png'
+import AnimatedText from '@/components/AnimatedText'
+import Link from 'next/link'
+import { ExternalLinkIcon } from '@/components/Icon'
+import HireMe from '@/components/HireMe'
 
 export default function Home() {
+  
   return (
     <>
       <Head>
@@ -10,9 +17,41 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main >
+      <main className="flex items-center text-dark w-full min-h-screen">
         
-        Home
+        <Layout className='pt-0 mt-8'>
+          <div className='flex items-center justify-between w-full '>
+            <div className="w-1/2">
+              <Image src={profilePic} alt="michael" className="w-full h-auto ps-32" />
+            </div>
+            <div className="w-1/2 flex flex-col items-center self-center">
+              <AnimatedText text='Turning Vision Into Reality With Code And Design. ' className='!text-6xl !text-left'/>
+              <p className="my-4 text-base font-medium">
+              I am a proficient full-stack developer who possesses expertise in a myriad of areas. 
+              Not only am I skilled in turning ideas into captivating web and mobile applications, 
+              but I also have hands-on experience in blockchain technology and smart contract development. 
+              In fact, I have successfully worked on a decentralized application (Dapp) by leveraging the power of blockchain. 
+              You can explore my latest projects and articles, which highlight my proficiency in frontend/backend skills, React.js, web development, and blockchain-based solutions.
+
+              </p>
+              <div className="flex items-center self-start mt-2">
+                <Link href="/dummy.pdf" target="_blank" 
+                className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border border-solid border-transperant hover:border-dark transition-all"
+                download={true}
+                >Resume
+                <ExternalLinkIcon className={"w-6 ml-1"}/>
+                </Link>
+                <Link href="mailto:yeungmoterial123@gmail.com" target="_blank"
+                className="ml-4 text-lg font-medium capitalize underline"
+                >Contact</Link>
+              </div>
+            </div>
+          </div>
+
+        </Layout>
+        <HireMe/>
+          
+
       </main>
     </>
   )
