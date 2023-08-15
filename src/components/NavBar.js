@@ -30,7 +30,7 @@ const NavBar = () => {
              </nav>
              
              <nav className="flex items-center justify-center flex-wrap">
-                <motion.a href="/" target={"_blank"}
+                <motion.a href="https://www.linkedin.com/in/tsz-wa-yeung-207126209/" target={"_blank"}
                 whileHover={{y:-4, scale:1.2}}
                 whileTap={{scale:0.9}}
                 className="w-8 mx-3"
@@ -38,7 +38,7 @@ const NavBar = () => {
                     <LinkedinIcon />
                 </motion.a>
 
-                <motion.a href="/" target={"_blank"}
+                <motion.a href="https://github.com/moterial" target={"_blank"}
                 whileHover={{y:-4, scale:1.2}}
                 whileTap={{scale:0.9}}
                 className="w-8 mx-3"
