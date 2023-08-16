@@ -39,7 +39,7 @@ const about = () => {
   return (
     <>
         <Head>
-            <title>About | Page</title>
+            <title>Michael | About Page</title>
             <meta name="description" content="Hi, I am Michael. I am a proficient full-stack developer who possesses expertise in a myriad of areas. Not only am I skilled in turning ideas into captivating web and mobile applications, but I also have hands-on experience in blockchain technology and smart contract development. In fact, I have successfully worked on a decentralized application (Dapp) by leveraging the power of blockchain. You can explore my latest projects and articles, which highlight my proficiency in frontend/backend skills, React.js, web development, and blockchain-based solutions."/>
         </Head>
 
