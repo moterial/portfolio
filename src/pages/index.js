@@ -18,9 +18,9 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="flex items-center text-dark w-full min-h-screen">
+      <main className="flex items-center text-dark w-full min-h-screen dark:text-light">
         
-        <Layout className='pt-0 mt-8'>
+        <Layout className='pt-0 mt-8 '>
           <div className='flex items-center justify-between w-full '>
             <div className="w-1/2">
               <Image src={profilePic} alt="michael" className="w-full h-auto ps-32" />
@@ -37,13 +37,13 @@ export default function Home() {
               </p>
               <div className="flex items-center self-start mt-2">
                 <Link href="/dummy.pdf" target="_blank" 
-                className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border border-solid border-transperant hover:border-dark transition-all"
+                className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border border-solid border-transperant hover:border-dark transition-all dark:bg-light dark:text-dark dark:hover:bg-dark dark:hover:text-light dark:hover:border-light"
                 download={true}
                 >Resume
                 <ExternalLinkIcon className={"w-6 ml-1"}/>
                 </Link>
                 <Link href="mailto:yeungmoterial123@gmail.com" target="_blank"
-                className="ml-4 text-lg font-medium capitalize underline"
+                className="ml-4 text-lg font-medium capitalize underline dark:text-light"
                 >Contact</Link>
               </div>
             </div>

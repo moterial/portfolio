@@ -5,10 +5,10 @@ import Link from 'next/link'
 const Footer = () => {
   return (
     <footer>
-        <Layout className='py-8 flex items-center justify-between'>
+        <Layout className='py-8 border-t-2 border-solid border-dark flex items-center justify-between dark:text-light dark:border-light'>
             <span>{new Date().getFullYear()}  &copy; All Right Reserved.</span>
             <div className="flex items-center">
-            Build With <span className="text-primary text-2xl px-1"> &#9825;</span> by&nbsp;<Link href='/' className="underline">Michael Yeung</Link>
+            Build With <span className="text-primary text-2xl px-1 dark:text-primaryDark"> &#9825;</span> by&nbsp;<Link href='/' className="underline">Michael Yeung</Link>
             </div>
             
             <Link href='/'>Passion in Coding </Link>
