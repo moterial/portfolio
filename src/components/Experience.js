@@ -44,7 +44,7 @@ const Experience = () => {
             style={{
                 scaleY: scrollYProgress
             }}
-            className="absolute left-9 top-1 w-[4px] h-full bg-dark origin-top dark:bg-light "/>
+            className="absolute left-9 top-1 w-[4px] h-full bg-dark origin-top rounded-full dark:bg-primaryDark dark:shadow-3xl"/>
             <ul className='w-full flex flex-col items-start justify-between ml-4'>
                 <Details
                     position="Freelance Full Stack Web Developer"
