@@ -18,19 +18,19 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="flex items-center text-dark w-full min-h-screen dark:text-light">
+      <main className="flex items-center text-dark w-full min-h-screen dark:text-light ">
         
-        <Layout className='pt-0 mt-8 '>
-          <div className='flex items-center justify-between w-full '>
-            <div className="w-1/2">
-              <Image src={profilePic} alt="michael" className="w-full h-auto ps-32" 
+        <Layout className='pt-0 mt-8 md:pt-16 sm:pt-8'>
+          <div className='flex items-center justify-between w-full lg:flex-col'>
+            <div className="w-1/2 md:w-full">
+              <Image src={profilePic} alt="michael" className="w-full h-auto ps-32 lg:hidden md:inline-block md:w-full lg:ps-0" 
                priority={true} 
                
               />
             </div>
-            <div className="w-1/2 flex flex-col items-center self-center">
-              <AnimatedText text='Turning Vision Into Reality With Code And Design. ' className='!text-6xl !text-left'/>
-              <p className="my-4 text-base font-medium">
+            <div className="w-1/2 flex flex-col items-center self-center lg:w-full  lg:text-center">
+              <AnimatedText text='Turning Vision Into Reality With Code And Design. ' className='!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text4-xl sm:!text-3xl'/>
+              <p className="my-4 text-base font-medium md:text-sm sm:text:xs">
               I am a proficient full-stack developer who possesses expertise in a myriad of areas. 
               Not only am I skilled in turning ideas into captivating web and mobile applications, 
               but I also have hands-on experience in blockchain technology and smart contract development. 
@@ -38,15 +38,17 @@ export default function Home() {
               You can explore my latest projects and articles, which highlight my proficiency in frontend/backend skills, React.js, web development, and blockchain-based solutions.
 
               </p>
-              <div className="flex items-center self-start mt-2">
+              <div className="flex items-center self-start mt-2 lg:self-center">
                 <Link href="/dummy.pdf" target="_blank" 
-                className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border border-solid border-transperant hover:border-dark transition-all dark:bg-light dark:text-dark dark:hover:bg-dark dark:hover:text-light dark:hover:border-light"
+                className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border border-solid border-transperant hover:border-dark transition-all dark:bg-light dark:text-dark dark:hover:bg-dark 
+                dark:hover:text-light dark:hover:border-light md:p-2 md:px-4 md:text-base md:font-medium md:rounded-md md:border md:border-solid md:border-dark md:hover:border-light md:hover:bg-light md:hover:text-dark md:transition-all
+                "
                 download={true}
                 >Resume
                 <ExternalLinkIcon className={"w-6 ml-1"}/>
                 </Link>
                 <Link href="mailto:yeungmoterial123@gmail.com" target="_blank"
-                className="ml-4 text-lg font-medium capitalize underline dark:text-light"
+                className="ml-4 text-lg font-medium capitalize underline dark:text-light md:text-base"
                 >Contact</Link>
               </div>
             </div>
@@ -54,7 +56,7 @@ export default function Home() {
 
         </Layout>
         <HireMe/>
-        <div className="absolute right-8 bottom-8 inline-block w-24">
+        <div className="absolute right-8 bottom-8 inline-block w-24 md:hidden">
           <Image src={lightBuild} alt="michael" className="w-full h-auto"/> 
         </div>
           

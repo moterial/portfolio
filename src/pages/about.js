@@ -46,9 +46,9 @@ const about = () => {
 
         <main className="flex w-full flex-col items-center justify-center dark:text-light">
             <Layout className='pt-16 mt-8'>
-                <AnimatedText text="Passion Fuels Purpose!" className='mb-16'/>
-                <div className="grid w-full grid-cols-8 gap-16">
-                    <div className='col-span-3 flex flex-col items-start justify-start'>
+                <AnimatedText text="Passion Fuels Purpose!" className='mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8'/>
+                <div className="grid w-full grid-cols-8 gap-16 sm:gap-6">
+                    <div className='col-span-3 flex flex-col items-start justify-start xl-col-span-4 lg:order-2 lg:col-span-8 md:items-center'>
                         <h2 className="mb-4 text-lg font-bold uppercase text-dark-75 dark:text:light/75">Biography</h2>
                         <p className="my-4 font-medium">
                         Hi, I&apos;m Michael, I am a proficient full-stack developer who possesses expertise in a myriad of areas 
@@ -67,32 +67,32 @@ const about = () => {
                         </p>
                     </div>
 
-                    <div className="col-span-3 relative h-max rounded-2xl border-2 border solid border-dark bg-light p-8 dark:bg-dark dark:border-light">
+                    <div className="col-span-3 relative h-max rounded-2xl border-2 border solid border-dark bg-light p-8 dark:bg-dark dark:border-light xl:col-span-4 lgd:order-1 lg:col-span-8">
                         <div className="absolute top-2 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light "/>
                         <Image src={profilePic} alt='Michael' className='w-full h-auto rounded-2xl' priority={true} />
                     </div>
 
-                    <div className="col-span-2 flex flex-col item-end justify-between">
-                        <div className="flex flex-col items-end justify-center">
-                            <span className="inline-block text-5xl font-bold text-right">
+                    <div className="col-span-2 flex flex-col items-end justify-between xl:col-span-8 xl:items-center xl:flex-row lg:order-3 lg:gap-3">
+                        <div className="flex flex-col items-end justify-center xl:items-center">
+                            <span className="inline-block text-5xl font-bold text-right lg:text-3xl md:text-2xl sm:text-xl xs:text-l lg:text-center">
 
                                A- Grade
                             </span>
-                            <h2 className="text-xl font-medium capitalize text-dark/75 text-right dark:text-light/75">on my Decentralized identity System Polyu Capstone Project(Find in projects page)</h2>
+                            <h2 className="text-xl font-medium capitalize text-dark/75 text-right dark:text-light/75 xl:items-center md:text-lg sm:text-base lg:text-center">on my Decentralized identity <br/>System Polyu Capstone Project<br/>(Find in projects page)</h2>
                         </div>
 
-                        <div className="flex flex-col items-end justify-center">
-                            <span className="inline-block text-5xl font-bold text-right">
+                        <div className="flex flex-col items-end justify-center xl:items-center">
+                            <span className="inline-block text-5xl font-bold text-right lg:text-3xl md:text-2xl sm:text-xl xs:text-l xl:items-center lg:text-center">
                                 <AnimatedNumbers value={1.3}/> Years
                             </span>
-                            <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75"> of experience</h2>
+                            <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:items-center md:text-lg  sm:text-base lg:text-center"> of experience</h2>
                         </div>
 
-                        <div className="flex flex-col items-end justify-center">
-                            <span className="inline-block text-5xl font-bold text-right">
+                        <div className="flex flex-col items-end justify-center xl:items-center">
+                            <span className="inline-block text-5xl font-bold text-right lg:text-3xl md:text-2xl sm:text-xl xs:text-l xl:items-center lg:text-center">
                             <AnimatedNumbers value={8}/>+
                             </span>
-                            <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75">Freelance Project</h2>
+                            <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:items-center md:text-lg  sm:text-base lg:text-center">Freelance Project</h2>
                         </div>
 
                         
