@@ -72,7 +72,7 @@ const about = () => {
                         <Image src={profilePic} alt='Michael' className='w-full h-auto rounded-2xl' priority={true} />
                     </div>
 
-                    <div className="col-span-2 flex flex-col items-end justify-between xl:col-span-8 xl:items-center xl:flex-row lg:order-3 lg:gap-3">
+                    <div className="col-span-2 flex flex-col items-end justify-between xl:col-span-8 xl:items-center xl:flex-row lg:order-3 lg:gap-3 md:gap-2 md:flex-col">
                         <div className="flex flex-col items-end justify-center xl:items-center">
                             <span className="inline-block text-5xl font-bold text-right lg:text-3xl md:text-2xl sm:text-xl xs:text-l lg:text-center">
 

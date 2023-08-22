@@ -11,7 +11,7 @@ const HireMe = () => {
             className="flex items-center justify-center absolute left-1/2 top-1/2 -translate-x-1/2 
             -translate-y-1/2 bg-dark text-light shaw-md border 
             boder-solid border-dark w-20 h-20 rounded-full font-semibold hover:bg-light hover:text-dark 
-            dark:bg-light dark:text-dark dark:hover:bg-dark dark:hover:text-light md:w-14 md:h-14 md:text-[2px] md:text-center  ">
+            dark:bg-light dark:text-dark dark:hover:bg-dark dark:hover:text-light md:w-14 md:h-14 md:text-[10px] md:text-center sm:text-[8px]  ">
                 Hire Me
             </Link>
 
