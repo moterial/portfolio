@@ -26,7 +26,7 @@ export default function Home() {
           <div className='flex items-center justify-between w-full lg:flex-col'>
             <div className="w-1/2 md:w-full">
               <Image src={profilePic} alt="michael" className="w-full h-auto ps-32 lg:hidden md:inline-block md:w-full lg:ps-0" 
-               priority={true} 
+               priority
                
               />
             </div>

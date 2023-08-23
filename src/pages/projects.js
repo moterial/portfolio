@@ -19,7 +19,7 @@ const FeaturedProject = ({type, title, summary, img, link, github}) => {
                 <Link href={link} target='_blank'
                 className='w-1/2 cursor-pointer overflow-hidden rounded-lg lg:w-full'
                 >
-                    <Image src={img} alt={title} className='w-full h-auto' priority={true} />
+                    <Image src={img} alt={title} className='w-full h-auto' priority />
                 </Link>
 
 
