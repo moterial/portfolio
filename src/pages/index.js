@@ -1,12 +1,12 @@
 import Layout from '@/components/Layout'
 import Head from 'next/head'
 import Image from 'next/image'
-import profilePic from '../../public/images/profile/developer-pic-3.png'
+import profilePic from '@/images/profile/developer-pic-3.png'
 import AnimatedText from '@/components/AnimatedText'
 import Link from 'next/link'
 import { ExternalLinkIcon } from '@/components/Icon'
 import HireMe from '@/components/HireMe'
-import lightBuild from '../../public/images/svgs/miscellaneous_icons_1.svg'
+import lightBuild from '@/images/svgs/miscellaneous_icons_1.svg'
 import TransitionEffect from '@/components/TransitionEffect'
 
 export default function Home() {
