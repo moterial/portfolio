@@ -5,7 +5,7 @@ import AnimatedText from '@/components/AnimatedText'
 import Link from 'next/link'
 import Image from 'next/image'
 import { GithubIcon } from '@/components/Icon'
-import project1 from '@/images/projects/fyp-cover-image.png'
+import project1 from '../../public/images/projects/fyp-cover-image.png'
 import TransitionEffect from '@/components/TransitionEffect'
 
 
