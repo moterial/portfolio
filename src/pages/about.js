@@ -9,6 +9,7 @@ import { useEffect, useRef } from 'react'
 import Skills from '@/components/Skills'
 import Experience from '@/components/Experience'
 import Education from '@/components/Education'
+import TransitionEffect from '@/components/TransitionEffect'
 
 
 const AnimatedNumbers = ({value}) =>{
@@ -43,7 +44,7 @@ const about = () => {
             <title>Michael | About Page</title>
             <meta name="description" content="Hi, I am Michael. I am a proficient full-stack developer who possesses expertise in a myriad of areas. Not only am I skilled in turning ideas into captivating web and mobile applications, but I also have hands-on experience in blockchain technology and smart contract development. In fact, I have successfully worked on a decentralized application (Dapp) by leveraging the power of blockchain. You can explore my latest projects and articles, which highlight my proficiency in frontend/backend skills, React.js, web development, and blockchain-based solutions."/>
         </Head>
-
+        <TransitionEffect/>
         <main className="flex w-full flex-col items-center justify-center dark:text-light">
             <Layout className='pt-16 mt-8'>
                 <AnimatedText text="Passion Fuels Purpose!" className='mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8'/>
